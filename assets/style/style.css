@@ -1,0 +1,60 @@
+body {
+    background: #d1fffb;
+}
+
+#buttonsDisplay {
+    position: absolute;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.paperBtn {
+    transform: rotate(45deg)
+}
+
+.gameBtn {
+    width: 200px;
+    display: none;
+}
+
+.rockBtn {
+    width: 160px;
+}
+
+.gameBtn:focus {
+    outline: none;
+}
+
+#log {
+    position: absolute;
+    font-family: 'Allan', cursive;
+    font-size: 50px;
+    margin: 20px;
+    transition: transform 20s;
+}
+
+.oppImg {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 200px
+}
+
+#retryBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 65px;
+    font-family: 'Allan', cursive;
+    font-size: 42px;
+    border: 1px inset #b7b7b7;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+}
