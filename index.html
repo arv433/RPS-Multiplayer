@@ -13,13 +13,17 @@
 </head>
 
 <body>
+    <audio src="assets/audio/WiiShopChannelMusic.mp3" type="audio/mp3" id="gameplaySong" loop></audio>
     <div id="buttonsDisplay">
         <input type="image" src="assets/images/rock.png" class="gameBtn rockBtn" stage-value="1"></input>
         <input type="image" src="assets/images/paper.png" class="gameBtn paperBtn" stage-value="2"></input>
         <input type="image" src="assets/images/scissors.png" class="gameBtn scissorsBtn" stage-value="3"></input>
     </div>
     <div id="log"></div>
-    <div id="oppLog"></div>
+    <div id="oppArea">
+        <div id="oppLog"></div>
+    </div>
+    <div id="winsLosses"></div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
